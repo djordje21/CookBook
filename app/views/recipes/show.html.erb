@@ -12,18 +12,6 @@
 
 </div>
 
-<div class="row">
-
-	<div class="col-md-5">
-		<!-- Moje mesto za review/rating -->
-		<%= render @recipe.reviews %>
-		<div>
-			<%= link_to "Add Review", new_recipe_review_path(@recipe)  %>
-		</div>
-	</div>
-
-
-</div>
 
 
 <%=	link_to "Back", root_path  %>
